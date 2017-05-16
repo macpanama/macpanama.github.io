@@ -14,11 +14,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 audio_path: "/audio/"
 episode_hero_path: "/assets/img/stops/"
 url: "https://github.com/macpanama" # the base hostname & protocol for your site
-logo: "/assets/img/logo/audio-guide.png"
+logo: "/assets/img/logo/logo_macpanama_vocesenoff.png"
 twitter_username: Panama_MAC
 github_username:  macpanama
-menu_heading: "Seleccione otra voz. Choose another voice."
-index_page_text: "Seleccione una voz. Choose a voice."
+menu_heading: "Seleccione otra voz. <em>Choose another voice.</em>"
+index_page_text: "Seleccione una voz. <em>Choose a voice.</em>"
 headphones_icon_color: "/assets/img/icons/headphones-dark.png"
 headphones_icon_light: "/assets/img/icons/headphones-light.png"
 
