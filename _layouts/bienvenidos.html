@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+  	{% include tagmanager.html %}
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper welcome">
+      	<div class="slick-container-container">
+	      	<div class="slick-container">
+		      	<div class="slick">
+		    		<div>
+						<p>Este es un proyecto sonoro para dar voces a cinco mujeres del mundo del arte latinoamericano. 
+
+						El uso de esta audioguía es muy simple. Como su teléfono celular. Pero si usted necesita ayuda, nuestro equipo está a su disposición.</p>
+
+						<p><em>This audio project gives a voice to five women from Latin American art world.
+
+						The audioguide is quite simple to use. Like your smartphone. If you have any question, please ask our staff.</em></p>
+						<div class="prompt slick-slide-to-next">Swipe to read more
+						<span class="button-forward">
+	      					<img src="{{ site.baseurl }}/assets/img/icons/button_forward.png"/>
+	    				</span>
+	    				</div>
+					</div>
+					<div>
+						<p>Usted va escuchar a la curadora Glayds Turner Bosso y las artistas Jacqueline Brandwayn, Iraida Icaza, Isabel de Obaldia y Nancy Friedemenn-Sanchez.</p>
+
+						<p><em>You will hear the curator Glayds Turner Bosso and the artists Jacqueline Brandwayn, Iraida Icaza, Isabel de Obaldia and Nancy Friedemenn-Sanchez.</em></p>
+					</div>
+					<div>
+						<br/>
+						<p class="centered"><a href="{{ site.baseurl }}/">!Vamos! <em>Let&rsquo;s begin!</em></a></p>
+						<p class="centered">
+							<a href="{{ site.baseurl }}/" class="prompt-big"><button class="styled-button"><img src="{{ site.baseurl }}/assets/img/icons/button_forward.png"/></button></a>
+						</p>
+					</div>
+		    	</div>
+		    </div>
+		</div>
+	    <div id="arrows-container">
+	    </div>
+
+        {{ content }}
+      </div>
+      	    <p class="skip-text">
+	    	<a href="{{ site.baseurl }}/">
+	        	!Vamos! <em>Let&rsquo;s begin!</em>
+	    	</a>
+	    </p>
+    </div>
+
+  </body>
+
+</html>
